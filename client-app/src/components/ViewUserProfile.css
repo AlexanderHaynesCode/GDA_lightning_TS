@@ -1,0 +1,26 @@
+﻿.ViewUserProfilePic {
+  width: 540px;
+  height: 360px;
+  box-shadow: 0 0px 5px 0px #6c757d;
+} 
+
+
+
+
+@media (max-width: 900px) {
+  .ViewUserProfilePic {
+    width: 360px;
+    height: 240px;
+  }
+} 
+
+@media (max-width: 767px) {
+  .ViewUserProfilePic {
+    width: 339px;
+    height: 226px;
+  } 
+
+  .userInfoDiv {
+    margin-top: 20px;
+  }
+}

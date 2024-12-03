@@ -1,0 +1,378 @@
+﻿h1 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.d11 {
+  background-color: #9bd1e3 !important;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  border-radius: 90px;
+  box-shadow: 0 0 20px 9px #c3c3c3;
+}
+
+.n7 {
+  background-color: red;
+  transition: background-color 0.5s linear;
+}
+
+.n7:hover {
+  background-color: transparent;      
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+input {
+  box-shadow: 6px 8px 14px 0px #6c757d;
+}
+
+select {
+  box-shadow: 3px 4px 7px 0px #6c757d;
+}
+
+.selectLookingFor {
+  width: 320px;
+}
+
+.react-select-element {
+  width: 300px;
+  box-shadow: 6px 8px 14px 0px #6c757d;
+}
+
+.floatRight {
+    float: right;
+}
+
+.SignUpFormError {
+  margin-top: 0.5rem;
+}
+
+.tinyMarginTop {
+  margin-top: 5px;
+}
+
+.homeSubTitle {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.p1 {
+  margin-bottom: 12px;
+  background-color: fuchsia;
+  font-weight: bold;
+  width: 30rem;
+  font-size: 2rem;
+  color: black;
+}
+
+.t1 {
+  width: 20rem;
+}
+
+.logo {
+  height: 100px;
+}
+
+.error {
+  color: red;
+}
+
+.MessageIcon {
+  width: 60px;
+  height: 60px;
+}
+
+.NavBarMessageIcon {
+  width: 35px;
+  height: 35px;
+}
+
+.NavBarMessageIconNEWNOTIF {  
+  width: 35px;
+  height: 35px;
+  display: none;
+}
+
+.UserInSearchImage {  
+  width: 432px;
+  height: 287px;  
+  border: 1px solid black;
+  border-bottom: 0;
+}
+
+.UIS_username {
+  font-size: 2rem;
+  margin-bottom: 0;;
+}
+
+.UIS_bottomBox {
+  border: 1px solid black;
+}
+
+.UIS_mainDiv {
+  margin-bottom: 20px;
+  box-shadow: 6px 8px 14px 0px #6c757d; 
+}
+
+.UIS_mainDiv .row {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.UIS_mainDiv .row * {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.vert-and-horiz-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}   
+
+.invisible {
+  display: none;
+}
+
+.fontLucida {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+textarea {
+  box-shadow: 0 0 14px 0px #6c757d;
+}
+
+.black {
+  color: black;
+}
+
+.messageTextArea {
+  width: 60%;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;
+}
+
+.topDivViewProfile {
+  margin-bottom: 20px;
+  background-color: lavender;
+}
+
+.SignUpBtn {
+  width: 300px;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border: none;
+  box-shadow: 0 0 20px black;
+}
+
+.SignUpHomeBtn {
+  display: inline-block;
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #fbc2eb 0%, #729de4 51%, #fbc2eb 100%);
+  width: 30rem;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.btn-withGradient {
+  flex: none;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}
+
+.btn-withGradient:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+.SignUpHomeBtn:hover, .sendMessageBtn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+.fileInput {
+  background-color: lightgrey;
+  border: 3px solid lightgrey;
+  border-radius: 3px;
+}
+
+.Home_GDA_title {
+  margin-bottom: 25px;
+}
+
+.selectGenderDDL {
+  width: 320px;
+  height: 30px;
+}
+
+.PaddingBottom15 { 
+  padding-bottom: 15px;
+}
+
+.sendMessageBtn {
+  height: 75px;
+  display: inline-block;
+  margin: 10px;
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  box-shadow: 0 0 14px 0px #6c757d;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #fbc2eb 0%, #729de4 51%, #fbc2eb 100%);
+  width: 30rem;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.btn-center {
+  display: flex;
+  justify-content: center;
+}
+
+.userInfoDiv {  
+  margin-top: 70px;
+}
+
+.LogOutBtn {
+  width: 100%;
+  height: 50px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.floatRight {
+  float: right;
+}
+
+
+
+
+@media (min-width: 768px) {
+  /* html {
+    font-size: 16px;
+  } */
+}
+@media (max-width: 900px) {
+  .t1 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  label, p, input, select {
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: calc(1.5rem + 1.5vw);
+  }
+
+  .addClickHeightPhone {
+    height: 36px;
+  }
+
+  .d67 {
+    margin-top: 3px;
+  }
+
+  .mobileRow {
+    padding: 0px 5px;
+  }
+
+  .btn-withGradient {
+    flex: 1 1 auto;
+    margin: 30px;
+  }
+
+  .p1 {
+    width: 75%;
+    border-radius: 20px;
+  }
+
+  .homeSubTitle {
+    font-size: 1.3rem;  
+  }
+
+  .vert-and-horiz-center {
+    float: right;
+    margin-bottom: 3px;
+    font-size: 1.2rem;
+  }
+
+  .phoneCSS {
+    float: left;
+  }
+  .phoneCSS2 {
+    margin-right: 50px;
+  }
+  .phoneCSS3 {
+    float: right;
+    margin-right: 20px;
+  }
+
+  .messageTextArea {
+    width: 90%;
+    height: 50%;
+  }
+
+  .d69 {
+    height: 120px;
+  }
+
+  .floatLeft2 {
+    float: left;
+  }
+
+  .floatRight2 {
+    float: right;
+  }
+
+  .userWhoSent {
+    height: 21px;
+  }
+
+  .bottomBox {
+    width: 50%;
+  }
+
+  .sendMessageBtn {
+    width: 90%;
+    margin: 0;
+  }
+
+  .UserInSearchImage {  
+    /* width: 339px; */
+    width: 100%;
+    height: 226px;  
+  }
+
+  .imgRow {
+    display: inherit;
+  }
+
+  .Home_GDA_title {
+    text-align: center;
+  }
+}

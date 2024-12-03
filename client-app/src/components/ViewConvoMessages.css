@@ -1,0 +1,37 @@
+﻿.MessageFrom {
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: dodgerblue;
+  color: white;
+}
+
+.MessageTo {
+  border-radius: 15px;
+  background-color: lightgray;
+}
+
+.messageRow {
+  margin-bottom: 5px;
+}
+
+
+
+@media (min-width: 768px) {
+  .hideOnPhone {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .messageRow {
+    margin: 0px 2px;
+  }
+
+  .d68 {
+    font-size: 1rem;
+  }
+
+  .hideOnPhone {
+    display: none;
+  }
+}
